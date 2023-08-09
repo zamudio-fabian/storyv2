@@ -1,7 +1,7 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'qr-button',
+  selector: 'qr-button-v2',
   templateUrl: './qr-button.html',
   styleUrls: ['./qr-button.scss'],
 })

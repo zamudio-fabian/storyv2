@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - work_1
 
 jobs:
   publish-npm-packages:
