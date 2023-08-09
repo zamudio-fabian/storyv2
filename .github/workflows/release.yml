@@ -2,8 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - main
-      - work_branch_v1
+      - master
 
 jobs:
   publish-npm-packages:
