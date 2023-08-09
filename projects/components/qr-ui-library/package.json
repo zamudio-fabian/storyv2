@@ -1,7 +1,7 @@
 {
   "name": "@zamudio-fabian/qr-ui-library",
   "description": "qr ui library",
-  "version": "1.2.66",
+  "version": "3.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
