@@ -64,7 +64,7 @@
         {
             "name": "QrButton",
             "id": "component-QrButton-02633fe0864abf99a524e6bdf7bc2fb934b322a2c9b5f0246dca771ad235956421f6c540300d9cbfd629da8fbc8454b6c91d1fd7c5cedfafdbb8c1d2448dfec6",
-            "file": "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.component.ts",
+            "file": "projects/components/ui-library/src/lib/components/qr-button/qr-button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -193,7 +193,7 @@
         {
             "name": "QrButtonCustom",
             "id": "component-QrButtonCustom-aba3d14fdf73b0593ee28ed431914545a9627512bb2a19d3512021b3d6e76c8b78675539272c41285338350e4b4b47d2bd2842ebdf0be82985fc4302f5f031a0",
-            "file": "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.component.ts",
+            "file": "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -318,7 +318,7 @@
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
-            "file": "projects/components/qr-ui-library/src/lib/qr-ui-library.module.ts",
+            "file": "projects/components/ui-library/src/lib/ui-library.module.ts",
             "methods": [],
             "sourceCode": "import { NgModule } from '@angular/core';\nimport { QrButtonCustom } from './components/qr-button-custom/qr-button-custom.component';\nimport { QrButton } from './components/qr-button/qr-button.component';\nimport { CommonModule } from '@angular/common';\n\n\n\n@NgModule({\n  declarations: [\n    QrButton,\n    QrButtonCustom\n  ],\n  imports: [\n    CommonModule\n  ],\n  exports: [\n    QrButton,\n    QrButtonCustom\n  ]\n})\nexport class QrUiLibraryModule { }\n",
             "children": [
@@ -369,7 +369,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.stories.ts",
+                "file": "projects/components/ui-library/src/lib/components/qr-button/qr-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -379,7 +379,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
+                "file": "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -389,7 +389,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.stories.ts",
+                "file": "projects/components/ui-library/src/lib/components/qr-button/qr-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<QrButton>",
@@ -399,7 +399,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
+                "file": "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<QrButtonCustom>",
@@ -423,7 +423,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<QrButton>",
-                "file": "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.stories.ts",
+                "file": "projects/components/ui-library/src/lib/components/qr-button/qr-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -434,7 +434,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<QrButtonCustom>",
-                "file": "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
+                "file": "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -443,12 +443,12 @@
         ],
         "enumerations": [],
         "groupedVariables": {
-            "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.stories.ts": [
+            "projects/components/ui-library/src/lib/components/qr-button/qr-button.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.stories.ts",
+                    "file": "projects/components/ui-library/src/lib/components/qr-button/qr-button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -458,19 +458,19 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.stories.ts",
+                    "file": "projects/components/ui-library/src/lib/components/qr-button/qr-button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<QrButton>",
                     "defaultValue": "{\n  title: 'Example/QrButton',\n  component: QrButton,\n  tags: ['autodocs']\n}"
                 }
             ],
-            "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts": [
+            "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
+                    "file": "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -480,7 +480,7 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
+                    "file": "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<QrButtonCustom>",
@@ -503,26 +503,26 @@
         "groupedFunctions": {},
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.stories.ts": [
+            "projects/components/ui-library/src/lib/components/qr-button/qr-button.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<QrButton>",
-                    "file": "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.stories.ts",
+                    "file": "projects/components/ui-library/src/lib/components/qr-button/qr-button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 180
                 }
             ],
-            "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts": [
+            "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<QrButtonCustom>",
-                    "file": "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
+                    "file": "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -560,7 +560,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.component.ts",
+                "filePath": "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "QrButtonCustom",
@@ -569,7 +569,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
+                "filePath": "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -579,7 +579,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/qr-ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
+                "filePath": "projects/components/ui-library/src/lib/components/qr-button-custom/qr-button-custom.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -589,7 +589,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.component.ts",
+                "filePath": "projects/components/ui-library/src/lib/components/qr-button/qr-button.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "QrButton",
@@ -598,7 +598,7 @@
                 "status": "very-good"
             },
             {
-                "filePath": "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.stories.ts",
+                "filePath": "projects/components/ui-library/src/lib/components/qr-button/qr-button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -608,7 +608,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/qr-ui-library/src/lib/components/qr-button/qr-button.stories.ts",
+                "filePath": "projects/components/ui-library/src/lib/components/qr-button/qr-button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",

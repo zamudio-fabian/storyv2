@@ -17,8 +17,8 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
-      "qr-ui-library": [
-        "dist/qr-ui-library"
+      "ui-library": [
+        "dist/ui-library"
       ]
     },
     "target": "ES2022",

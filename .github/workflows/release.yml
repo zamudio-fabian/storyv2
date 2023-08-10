@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - hygen
 
 jobs:
   publish-npm-packages:

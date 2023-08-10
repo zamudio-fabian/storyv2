@@ -8,6 +8,6 @@
         "lint": "ng lint demoapp"
     },
     "dependencies": {
-        "qr-ui-library": "^0.1.0"
+        "ui-library": "^0.1.0"
     }
 }
